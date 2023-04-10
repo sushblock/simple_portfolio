@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/Home.css";
 import { userMain, greeting, catch_attention, skills } from "../data/data";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
+
+import {ImLinkedin} from 'react-icons/im';
+import {BsGithub} from 'react-icons/bs';
+import {MdOutlineEmail} from 'react-icons/md';
 
 
 function Home() {
@@ -20,21 +21,21 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <EmailIcon />
+            <MdOutlineEmail />
           </a>
           <a
             href="https://github.com/sushblock"
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubIcon />
+            <BsGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/sushilkr23"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <ImLinkedin />
           </a>
         </div>
       </div>

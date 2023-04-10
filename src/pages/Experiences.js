@@ -4,28 +4,31 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import PreparationIcon from "@material-ui/icons/Build";
-import WorkIcon from "@material-ui/icons/Work";
-import BusinessIcon from "@material-ui/icons/Business";
-import LocalLibraryRoundedIcon from "@material-ui/icons/LocalLibraryRounded";
+
+
+import {IoSchoolOutline} from "react-icons/io5";
+import {VscLibrary} from "react-icons/vsc";
+import {MdWork} from "react-icons/md";
+import {FcBusiness} from "react-icons/fc";
+
+
 import { exp_timeline } from "../data/data";
 
 function Experiences() {
   const getIconTag = (icon) => {
     switch (icon) {
       case "SchoolIcon":
-        return <SchoolIcon />;
+        return <IoSchoolOutline />;
       case "PreparationIcon":
-        return <PreparationIcon />;
+        return <VscLibrary />;
       case "WorkIcon":
-        return <WorkIcon />;
+        return <MdWork />;
       case "BusinessIcon":
-        return <BusinessIcon />;
+        return <FcBusiness />;
       case "LocalLibraryRoundedIcon":
-        return <LocalLibraryRoundedIcon />;
+        return <VscLibrary />;
       default:
-        return <SchoolIcon />;
+        return <IoSchoolOutline />;
     }
   };
 

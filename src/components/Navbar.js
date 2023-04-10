@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import '../styles/Navbar.css';
-import ReorderIcon from "@material-ui/icons/Reorder";
-import CloseIcon from "@material-ui/icons/Close";
+import {IoReorderThree} from "react-icons/io5";
+import {IoClose} from "react-icons/io5";
+
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = React.useState(false);
@@ -23,7 +24,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          {expandNavbar ? <CloseIcon /> : <ReorderIcon />}
+          {expandNavbar ? <IoClose /> : <IoReorderThree />}
         </button>        
       </div>
       <div className="links">
