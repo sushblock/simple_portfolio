@@ -1,9 +1,4 @@
 import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
-import image4 from "../assets/image4.jpg";
-import image5 from "../assets/image5.jpeg";
-import image6 from "../assets/image6.jpeg";
 
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
@@ -12,14 +7,9 @@ const catch_attention =
 const skills = [
   {
     id: 1, 
-    name: "Program Management", 
-    level: "Agile, Waterfall, MSP, Wipro PgMA" 
-  },
-  {
-    id: 2,
-    name: "Project Management",
-    level: "Agile, Waterfall, Wipro PMA, PMP, Prince2",
-  },
+    name: "Program & Project Management", 
+    level: "Agile, Waterfall, MSP, Wipro PgMA, Wipro PMA, PMP, Prince2" 
+  },  
   {
     id: 3, 
     name: "Agile Project Management", 
@@ -149,40 +139,9 @@ const exp_timeline = [
 const projectList = [
   {
     id: 1,
-    projName: "ChatGPT",
-    description: "Chatbot for architecture planning and documentation",
+    projName: "My Portfolio Website",
+    description: "This website is built using ReactJS and is a fully responsive. This is complete frontend development. \n\nGitHub is used to maintain the code base which you can see under my GitHub account “simple_portfolio” code repository. \n\nThis website is deployed on netlify.com and is redeployed every time code is merged in the main branch in GitHub. \n\nI have used GithHub Copilot in this project to faster my coding. \n\nDoing program management/project management over long period at onsite kept me away from coding and in last couple of years the whole job landscape has changed and hence upgrading myself with the trend.",
     image: image1,
-  },
-  {
-    id: 2,
-    projName: "GitHub Copilot",
-    description: "AI based code generation",
-    image: image2,
-  },
-  {
-    id: 3,
-    projName: "This website",
-    description: "React, Material UI, GitHub Pages",
-    image: image3,
-  },
-  {
-    id: 4,
-    projName: "Hydroponics Farming",
-    description: "B2B, B2C, IoT, Cloud integration",
-    image: image4,
-  },
-  {
-    id: 5,
-    projName: "Customer CRM",
-    description: "AI/ML, Cloud integration, Deployment",
-    image: image5,
-  },
-  {
-    id: 6,
-    projName: "Job Search and Preparation",
-    description:
-      "Fullstack, Java, JavaScript, Python, Cloud integration, Deployment",
-    image: image6,
   },
 ];
 
