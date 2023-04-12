@@ -6,11 +6,13 @@ import { Link } from "react-router-dom";
 import { ImLinkedin } from "react-icons/im";
 import { BsGithub } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
+import logo192 from "../assets/logo192.png";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
+        <img src={logo192} alt="Sushil Kumar" className="profile-image"/>
         <h2>
           {greeting} <span className="name">{userMain.name}</span>
         </h2>
