@@ -3,33 +3,28 @@ import image1 from "../assets/image1.jpg";
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
 const catch_attention =
-  "I am a program manager who understands technology and can keep his hands dirty if necessary.";
+  "I am a program manager with over 17 years in IT, who understands technology very well and can deep dive if necessary. Entrepreneurial spirit.";
 const skills = [
   {
     id: 1, 
     name: "Program & Project Management", 
-    level: "Agile, Waterfall, MSP, Wipro PgMA, Wipro PMA, PMP, Prince2" 
-  },  
+    level: "Agile, Waterfall, MSP, Wipro PgMA, Wipro PMA, PMP, Prince2, CSM, Scrum, Kanban" 
+  },
   {
-    id: 3, 
-    name: "Agile Project Management", 
-    level: "CSM, Scrum, Kanban, Jira" 
+    id: 2,
+    name: "Software Architecture and Engineering",
+    level: "SOLID Principles, SDLC, Agile Development",
+  },
+  {
+    id: 3,
+    name: "Tools & Technologies",
+    level: "Progressive Web Apps(PWA - website installable apps - e.g., this website), Java, React JS, Fullstack, CSS, JavaScript, HTML, Jira, Confluence, Azure DevOps, GitHub",
   },
   {
     id: 4,
-    name: "Software Architecture and Engineering",
-    level: "SOLID Principles, SDLC",
-  },
-  {
-    id: 5,
-    name: "Tools & Technologies",
-    level: "JIra, Confluence, Azure DevOps, GitHub, GitLap",
-  },
-  {
-    id: 6,
     name: "Cutting Edge Technologies",
     level:
-      "ChatGPT for architecture planning and documentation, Software design, technology selection. GitHub Copilot user. E.g. this website.",
+      "ChatGPT for architecture planning, software design and documentation. GitHub Copilot for faster development and implementation - e.g., this website.",
   },
 ];
 
@@ -140,8 +135,12 @@ const projectList = [
   {
     id: 1,
     projName: "My Portfolio Website",
-    description: "This website is built using ReactJS and is a fully responsive. This is complete frontend development. \n\nGitHub is used to maintain the code base which you can see under my GitHub account “simple_portfolio” code repository. \n\nThis website is deployed on netlify.com and is redeployed every time code is merged in the main branch in GitHub. \n\nI have used GithHub Copilot in this project to faster my coding. \n\nDoing program management/project management over long period at onsite kept me away from coding and in last couple of years the whole job landscape has changed and hence upgrading myself with the trend.",
+    tools: "PWA App, ReactJS, CSS, JavaScript, HTML",
+    platform: "Netlify cloud, GitHub",
+    description: "This website is fully responsive and can be installed as an app on your mobile.",
+    github_url: "https://github.com/sushblock/simple_portfolio",
     image: image1,
+    reason: "I have built this portfolio website to showcase my technical side of the competency.",
   },
 ];
 
