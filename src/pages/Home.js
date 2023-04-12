@@ -23,7 +23,7 @@ function Home() {
           >
             <BsGithub />
           </a>
-          <a href="*" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/sushilkr23" target="_blank" rel="noreferrer">
             <ImLinkedin />
           </a>
           <Link

@@ -33,8 +33,8 @@ function Experiences() {
   };
 
   return (
-    <div className="experience">
-      <h1>Experiences</h1>
+    <div className="projects">
+      <h1 className="projectTitle">Experiences</h1>
       <VerticalTimeline lineColor="#21325e">
         {exp_timeline.map((item, number) => {
           return (

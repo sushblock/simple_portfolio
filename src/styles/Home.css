@@ -23,13 +23,19 @@
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: #e9d35b;
-  height: 50px;
+  color: #b99f0e;
+  height: fit-content;
 }
 
 .about .prompt {
   width: 60%;
   font-size: 30px;
+}
+
+.about .prompt .notes{
+  width: 60%;
+  font-size: 20px;
+  color: #3e497a;
 }
 
 .prompt svg {
@@ -68,11 +74,12 @@
   .about .prompt {
     margin-top: 10px;
     font-size: 20px;
-    width: 80%;
+    text-align: left;
+    width: 90%;
   }
 
   .skills {
-    text-align: center;
+    text-align: left;
   }
   .list {
     padding: 0;
