@@ -145,7 +145,7 @@ const projectList = [
     reason: "I have built this portfolio website to showcase my technical side of the competency.",
   },
   {
-    id: 1,
+    id: 2,
     projName: "Investment App",
     tools: "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
     platform: "Google Firebase, GitHub",
