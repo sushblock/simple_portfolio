@@ -1,4 +1,5 @@
 import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
 
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
@@ -139,9 +140,21 @@ const projectList = [
     platform: "Netlify cloud, GitHub",
     description: "This website is fully responsive and can be installed as an app on your mobile.",
     github_url: "https://github.com/sushblock/simple_portfolio",
+    website_url: "https://legendary-seahorse-202331.netlify.app/",
     image: image1,
     reason: "I have built this portfolio website to showcase my technical side of the competency.",
   },
+  {
+    id: 2,
+    projName: "Investment App",
+    tools: "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
+    platform: "Google Firebase, GitHub",
+    description: "This website is fully responsive and can be installed as an app on your mobile.",
+    github_url: "https://github.com/sushblock/g_firebase_usage",
+    website_url: "https://tjikko-7572e.web.app/",
+    image: image2,
+    reason: "I have built this nvestment app/website to implement the minimum set of tools required for a fully functional platform. The only thing missing right now is the serverless functions to integrate the payment gateway to this app",
+  }
 ];
 
 export {
