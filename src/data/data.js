@@ -19,7 +19,7 @@ const skills = [
   {
     id: 3,
     name: "Tools & Technologies",
-    level: "Progressive Web Apps(PWA - website installable apps - e.g., this website), Java, React JS, Fullstack, CSS, JavaScript, HTML, Jira, Confluence, Azure DevOps, GitHub",
+    level: "Progressive Web Apps(PWA - website installable apps - e.g., this website), Java, React JS, Firebase Auth, Firestore, Firebase Storage, Firebase Functions, Firebase Hosting, Fullstack, CSS, JavaScript, HTML, Jira, Confluence, Azure DevOps, GitHub",
   },
   {
     id: 4,
