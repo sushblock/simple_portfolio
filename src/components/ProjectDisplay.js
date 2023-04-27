@@ -13,7 +13,7 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1>{project.projName}</h1>
-      <img src={project.image} alt={project.projName} />
+      <a href={project.website_url} target="_blank" rel="noopener noreferrer"><img src={project.image} alt={project.projName} /></a>
       <p>
         <h2>Reason</h2>
         {project.reason}
