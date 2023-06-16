@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import '../styles/Navbar.css';
-import {IoReorderThree} from "react-icons/io5";
-import {IoClose} from "react-icons/io5";
-
+import "../styles/Navbar.css";
+import { IoReorderThree } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
+import logo from "../assets/logo192.png";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = React.useState(false);
@@ -14,23 +14,28 @@ function Navbar() {
   //useEffect hook to close the navbar when the path changes
   React.useEffect(() => {
     setExpandNavbar(false);
-  }, [location]); 
+  }, [location]);
 
   return (
-    <div className="navbar" id={expandNavbar? "open":"close"}>
-      <div className="toggleButton">
-        <button
-          onClick={() => {
-            setExpandNavbar((prev) => !prev);
-          }}
-        >
-          {expandNavbar ? <IoClose /> : <IoReorderThree />}
-        </button>        
-      </div>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experiences">Experiences</Link>        
+    <div className="main">
+      <Link to="/">
+        <img src={logo} alt="Sushil Kumar" height="50px" width="50px" />
+      </Link>
+      <div className="navbar" id={expandNavbar ? "open" : "close"}>
+        <div className="toggleButton">
+          <button
+            onClick={() => {
+              setExpandNavbar((prev) => !prev);
+            }}
+          >
+            {expandNavbar ? <IoClose /> : <IoReorderThree />}
+          </button>
+        </div>
+        <div className="links">
+          <Link to="/">Home</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/experiences">Experiences</Link>
+        </div>
       </div>
     </div>
   );
