@@ -143,7 +143,7 @@ const projectList = [
     description:
       "This website is fully responsive and can be installed as an app on your mobile.",
     github_url: "https://github.com/sushblock/simple_portfolio",
-    website_url: "https://legendary-seahorse-202331.netlify.app/",
+    website_url: "https://sush-portfolio.netlify.app/",
     image: image1,
     reason:
       "I have built this portfolio website to showcase my technical side of the competency.",
