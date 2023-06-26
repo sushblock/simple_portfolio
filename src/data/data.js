@@ -1,5 +1,6 @@
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png"
 
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
@@ -161,6 +162,20 @@ const projectList = [
     image: image2,
     reason:
       "I have built this investment app/website to implement the minimum set of tools required for a fully functional platform. The only thing missing right now is the serverless functions to integrate the payment gateway to this app",
+  },
+  {
+    id: 3,
+    projName: "DivineDepot E-Commerce App",
+    tools:
+      "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
+    platform: "Google Firebase, GitHub",
+    description:
+      "This is a fully responsive ecommerce website fully integrated with RazorPay payment gateway in test mode right now.",
+    github_url: "https://github.com/sushblock/ecommerce_bazaar",
+    website_url: "https://divine-ecommerce.web.app/",
+    image: image3,
+    reason:
+      "I have built this ecommerec app/website to implement the minimum set of tools required for a fully functional ecommerece multi vendor platform. It is under construction to include the product upload and analytics reporting capabilities.",
   },
 ];
 
