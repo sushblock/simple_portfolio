@@ -33,9 +33,12 @@
   margin-bottom: 20px;
 }
 
-.features ul,
-.tools ul,
-.accomplishments ul {
+.section {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.section ul {
   list-style-type: disc;
   margin-left: 20px;
   font-size: 18px;
@@ -43,9 +46,7 @@
   padding-left: 20px; /* Add padding to align with bullet points */
 }
 
-.features h2,
-.tools h2,
-.accomplishments h2 {
+.section h2 {
   font-size: 28px;
   color: #3e497a;
   margin-bottom: 20px;

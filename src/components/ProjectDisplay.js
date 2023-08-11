@@ -11,11 +11,14 @@ const ProjectDisplay = () => {
 
   return (
     <div className="project">
-      <h1>{project.application.name}</h1>
-      <p>{project.application.description}</p>
-      <a href={project.website_url} target="_blank" rel="noopener noreferrer"><img src={project.image} alt={project.projName} /></a>
-      
-      <div className="features">
+      <div className="section">
+        <h1>{project.application.name}</h1>
+        <p>{project.application.description}</p>
+        <a href={project.website_url} target="_blank" rel="noopener noreferrer">
+          <img src={project.image} alt={project.projName} />
+        </a>
+      </div>
+      <div className="section">
         <h2>Features:</h2>
         <ul>
           {project.features.map((feature, index) => (
@@ -24,18 +27,20 @@ const ProjectDisplay = () => {
         </ul>
       </div>
 
-      <div className="tools">
+      <div className="section">
         <h2>Tools and Technologies:</h2>
         <ul>
-          {Object.entries(project.toolsAndTechnologies).map(([tool, description], index) => (
-            <li key={index}>
-              <strong>{tool}:</strong> {description}
-            </li>
-          ))}
+          {Object.entries(project.toolsAndTechnologies).map(
+            ([tool, description], index) => (
+              <li key={index}>
+                <strong>{tool}:</strong> {description}
+              </li>
+            )
+          )}
         </ul>
       </div>
 
-      <div className="accomplishments">
+      <div className="section">
         <h2>Accomplishments:</h2>
         <ul>
           {project.accomplishments.map((accomplishment, index) => (
@@ -44,7 +49,7 @@ const ProjectDisplay = () => {
         </ul>
       </div>
 
-      <div className="image-grid">
+      <div className="project-links">
         <a href={project.github_url} target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
