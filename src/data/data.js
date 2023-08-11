@@ -18,84 +18,90 @@ const skills = [
   },
   {
     id: 3,
-    name: "🎯Project management methodologies",
+    name: "🎯Methodologies",
     level:
       "Waterfall, Scrum, Kanban",
   },
   {
     id: 4,
+    name: "🎯Pricing Models",
+    level:
+      "Fixed Price, Time & Material, T&M with Cap, Milestone Based",
+  },
+  {
+    id: 5,
     name: "🎯Cloud Platforms",
     level:
       "AWS, Azure, Google Cloud Platform (GCP), Google Firebase, Vercel, Netlify",
   },
   {
-    id: 5,
+    id: 6,
     name: "🎯Agile Collaboration",
     level:
       "MS Teams, Confluence, Asana, Slack",
   },
   {
-    id: 6,
+    id: 7,
     name: "🎯AIML Projects",
     level:
       "Amazon SageMaker, A2I, OpenAI, LangChain, Hugging Face, Replicate",
   },
   {
-    id: 7,
+    id: 8,
     name: "🎯Software stack",
     level:
       "MERN, Next JS, Java/J2ee Full Stack, Python",
   },
   {
-    id: 8,
+    id: 9,
     name: "🎯Authentication",
     level:
       "OAuth, Firebase Authentication, Clerk",
   },
   {
-    id: 9,
+    id: 10,
     name: "🎯Styling",
     level:
       "TailwindCSS, StyledComponents, CSS",
   },
   {
-    id: 10,
+    id: 11,
     name: "🎯Quality Assurance and Testing",
     level:
       "Postman, Mocha, Selenium, JUnit, Insomnia",
   },
   {
-    id: 11,
+    id: 12,
     name: "🎯Databases",
     level:
       "MongoDB, MySQL, Oracle, Apache Kafka, Planet Scale, Pinecone, Chroma DB",
   },
   {
-    id: 12,
+    id: 13,
     name: "🎯Payment gateway integrations",
     level:
       "Razorpay, Stripe",
   },
   {
-    id: 13,
+    id: 14,
     name: "🎯DevOps Tools/ Config and Release management/ CI/CD",
     level:
       "JIRA, Azure DevOps",
   },
   {
-    id: 14,
+    id: 15,
     name: "🎯Configuration management/Version Control",
     level:
       "Git, SVN, GitLab",
   },
   {
-    id: 15,
+    id: 16,
     name: "🎯Process Improvement",
     level:
       "Lean Six Sigma, Kaizen",
   },
   {
-    id: 16,
+    id: 17,
     name: "🎯Communication",
     level:
       "Microsoft Teams, Zoom, WebEx, GoogleMeet",
@@ -227,7 +233,8 @@ const projectList = [
       "Code Generation: The app provides code generation capabilities, assisting users in creating code snippets and even entire scripts efficiently.",
       "Image Generation: Users can generate images using state-of-the-art AI algorithms, allowing for quick and customized visual content creation.",
       "Audio Generation: The app facilitates the creation of audio content through AI-powered algorithms, enabling users to generate various audio elements with ease.",
-      "Video Generation: Users can leverage AI to generate engaging video content, streamlining the process of video creation for different purposes."
+      "Video Generation: Users can leverage AI to generate engaging video content, streamlining the process of video creation for different purposes.",
+      "PWA: This app is a NextJS Progressive Web App using Workbox API. So this app is installable on user mobile."
     ],
     toolsAndTechnologies: {
       "NextJS": "The app is built using NextJS, a modern web framework that offers server-side rendering and efficient client-side routing.",
