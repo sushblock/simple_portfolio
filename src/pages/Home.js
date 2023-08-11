@@ -23,10 +23,10 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsGithub />
+            <BsGithub color="#000000"/>
           </a>
           <a href="https://www.linkedin.com/in/sushilkr23" target="_blank" rel="noreferrer">
-            <ImLinkedin />
+            <ImLinkedin  color="#000000"/>
           </a>
           <Link
             to="#"
@@ -34,7 +34,7 @@ function Home() {
               (window.location = "mailto:sushilstudy2013@gmail.com")
             }
           >
-            <MdOutlineEmail />
+            <MdOutlineEmail  color="#000000"/>
           </Link>
         </div>
       </div>
