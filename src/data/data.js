@@ -5,30 +5,108 @@ import image3 from "../assets/image3.png"
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
 const catch_attention =
-  "I am a program manager with over 17 years in IT, who understands technology very well and can deep dive if necessary. Entrepreneurial spirit.";
+  "With over 19 years of experience in delivery leadership, program and project management, and, technical roles, I am an experienced IT leader committed to driving innovation and transformation.";
 const skills = [
   {
     id: 1,
-    name: "Program & Project Management",
+    name: "🎯Program & Project Management",
     level:
-      "Agile, Waterfall, MSP, Wipro PgMA, Wipro PMA, PMP, Prince2, CSM, Scrum, Kanban",
+      "Agile, Waterfall, MSP Practitioner, Wipro PgMA, Wipro PMA, PMP, Prince2 Practitioner, CSM, Scrum, Kanban",
   },
   {
     id: 2,
-    name: "Software Architecture and Engineering",
-    level: "SOLID Principles, SDLC, Agile Development",
+    name: "🎯Project Management Tools",
+    level: "Microsoft Project, JIRA, Azure DevOps, ClickUp",
   },
   {
     id: 3,
-    name: "Tools & Technologies",
+    name: "🎯Project management methodologies",
     level:
-      "Progressive Web Apps(PWA - website installable apps - e.g., this website), Java, React JS, Firebase Auth, Firestore, Firebase Storage, Firebase Functions, Firebase Hosting, Fullstack, CSS, JavaScript, HTML, Jira, Confluence, Azure DevOps, GitHub",
+      "Waterfall, Scrum, Kanban",
   },
   {
     id: 4,
-    name: "Cutting Edge Technologies",
+    name: "🎯Cloud Platforms",
     level:
-      "ChatGPT for architecture planning, software design and documentation. GitHub Copilot for faster development and implementation - e.g., this website.",
+      "AWS, Azure, Google Cloud Platform (GCP), Google Firebase, Vercel, Netlify",
+  },
+  {
+    id: 5,
+    name: "🎯Agile Collaboration",
+    level:
+      "MS Teams, Confluence, Asana, Slack",
+  },
+  {
+    id: 6,
+    name: "🎯AIML Projects",
+    level:
+      "Amazon SageMaker, A2I, OpenAI, LangChain, Hugging Face, Replicate",
+  },
+  {
+    id: 7,
+    name: "🎯Software stack",
+    level:
+      "MERN, Next JS, Java/J2ee Full Stack, Python",
+  },
+  {
+    id: 8,
+    name: "🎯Authentication",
+    level:
+      "OAuth, Firebase Authentication, Clerk",
+  },
+  {
+    id: 9,
+    name: "🎯Styling",
+    level:
+      "TailwindCSS, StyledComponents, CSS",
+  },
+  {
+    id: 10,
+    name: "🎯Quality Assurance and Testing",
+    level:
+      "Postman, Mocha, Selenium, JUnit, Insomnia",
+  },
+  {
+    id: 11,
+    name: "🎯Databases",
+    level:
+      "MongoDB, MySQL, Oracle, Apache Kafka, Planet Scale, Pinecone, Chroma DB",
+  },
+  {
+    id: 12,
+    name: "🎯Payment gateway integrations",
+    level:
+      "Razorpay, Stripe",
+  },
+  {
+    id: 13,
+    name: "🎯DevOps Tools/ Config and Release management/ CI/CD",
+    level:
+      "JIRA, Azure DevOps",
+  },
+  {
+    id: 14,
+    name: "🎯Configuration management/Version Control",
+    level:
+      "Git, SVN, GitLab",
+  },
+  {
+    id: 15,
+    name: "🎯Process Improvement",
+    level:
+      "Lean Six Sigma, Kaizen",
+  },
+  {
+    id: 16,
+    name: "🎯Communication",
+    level:
+      "Microsoft Teams, Zoom, WebEx, GoogleMeet",
+  },
+  {
+    id: 18,
+    name: "🎯Architecture/Design considerations/Tools",
+    level:
+      "SOLID, DRY, Progressive Web App, Lighthouse Website Optimisations",
   },
 ];
 
@@ -126,7 +204,7 @@ const exp_timeline = [
   {
     number: 10,
     type: "education",
-    when: "Feb 2023-current",
+    when: "Mar 2023-current",
     where: "Job Search and Preparation",
     what: "Fullstack, Java, JavaScript, Python, Cloud integration, Deployment",
     color: "#fff",
@@ -151,20 +229,6 @@ const projectList = [
   },
   {
     id: 2,
-    projName: "Investment App",
-    tools:
-      "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
-    platform: "Google Firebase, GitHub",
-    description:
-      "This website is fully responsive and can be installed as an app on your mobile.",
-    github_url: "https://github.com/sushblock/g_firebase_usage",
-    website_url: "https://tjikko-7572e.web.app/",
-    image: image2,
-    reason:
-      "I have built this investment app/website to implement the minimum set of tools required for a fully functional platform. The only thing missing right now is the serverless functions to integrate the payment gateway to this app",
-  },
-  {
-    id: 3,
     projName: "DivineDepot E-Commerce App",
     tools:
       "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
