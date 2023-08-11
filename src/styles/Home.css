@@ -10,14 +10,13 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #d7dbe6;
   color: #120d0d;
   /*keep some gap between items vertically*/
   padding: 0 0 20px 0;
-  
 }
 
 .about .profile-image {
@@ -32,14 +31,15 @@
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   color: #b99f0e;
   height: fit-content;
 }
 
 .about .prompt {
-  width: 60%;
+  width: 90%;
   font-size: 30px;
+  max-width: 900px;
 }
 
 .about .prompt .notes{
@@ -65,11 +65,14 @@
 
 .skills h1 {
   color: #3e497a;
+  font-size: 50px;
 }
 
 .skills .list {
+  font-size: medium;
   list-style: none;
-  width: 60%;
+  width: 90%;
+  max-width: 800px;
 }
 
 .list span {

@@ -3,39 +3,55 @@ import "../styles/ProjectDisplay.css";
 import { useParams } from "react-router-dom";
 import { projectList } from "../data/data";
 import { BsGithub } from "react-icons/bs";
-import {CgWebsite} from "react-icons/cg";
+import { CgWebsite } from "react-icons/cg";
 
 const ProjectDisplay = () => {
   const { id } = useParams();
-
   const project = projectList[id - 1];
 
   return (
     <div className="project">
-      <h1>{project.projName}</h1>
+      <h1>{project.application.name}</h1>
+      <p>{project.application.description}</p>
       <a href={project.website_url} target="_blank" rel="noopener noreferrer"><img src={project.image} alt={project.projName} /></a>
-      <p>
-        <h2>Reason</h2>
-        {project.reason}
-      </p>
-      <p>
-        <h2>Tools</h2>
-        {project.tools}
-      </p>
-      <p>
-        <h2>Platform</h2>
-        {project.platform}
-      </p>
-      <p>
-        <h2>Description</h2>
-        {project.description}
-      </p>
-      <a href={project.github_url} target="_blank" rel="noreferrer">
-        <BsGithub />
-      </a>
-      <a href={project.website_url} target="_blank" rel="noreferrer">
-        <CgWebsite />
-      </a>
+      
+      <div className="features">
+        <h2>Features:</h2>
+        <ul>
+          {project.features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="tools">
+        <h2>Tools and Technologies:</h2>
+        <ul>
+          {Object.entries(project.toolsAndTechnologies).map(([tool, description], index) => (
+            <li key={index}>
+              <strong>{tool}:</strong> {description}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="accomplishments">
+        <h2>Accomplishments:</h2>
+        <ul>
+          {project.accomplishments.map((accomplishment, index) => (
+            <li key={index}>{accomplishment}</li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="image-grid">
+        <a href={project.github_url} target="_blank" rel="noreferrer">
+          <BsGithub />
+        </a>
+        <a href={project.website_url} target="_blank" rel="noreferrer">
+          <CgWebsite />
+        </a>
+      </div>
     </div>
   );
 };

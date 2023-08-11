@@ -16,6 +16,7 @@ function Projects() {
               id={item.id}
               projectName={item.projName}
               image={item.image}
+              projectDescription={(item.application.description).substring(0, 100)}
             />
           );
         })}

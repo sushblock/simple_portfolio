@@ -1,10 +1,9 @@
 import image1 from "../assets/image1.png";
-import image3 from "../assets/image3.png"
 
 const userMain = { name: "Sushil Kumar", city: "Bangalore", country: "India" };
 const greeting = "Hello, I am";
 const catch_attention =
-  "With over 19 years of experience in delivery leadership, program and project management, and, technical roles, I am an experienced IT leader committed to driving innovation and transformation.";
+  "With over 19 years of experience in delivery leadership, program and project management, and, technical roles, I am an experienced IT leader committed to driving innovation and transformation.I ensure alignment with business objectives to deliver value-driven results in a faster and better way. I possess skills in working with cross-functional teams to tackle complex challenges and thrive in dynamic environments. I am looking to contribute to an organization's success through my expertise and adaptability.";
 const skills = [
   {
     id: 1,
@@ -215,30 +214,44 @@ const exp_timeline = [
 const projectList = [
   {
     id: 1,
-    projName: "Portfolio Website",
-    tools: "PWA App, ReactJS, CSS, JavaScript, HTML",
-    platform: "Netlify cloud, GitHub",
-    description:
-      "This website is fully responsive and can be installed as an app on your mobile.",
-    github_url: "https://github.com/sushblock/simple_portfolio",
-    website_url: "https://sush-portfolio.netlify.app/",
-    image: image1,
-    reason:
-      "I have built this portfolio website to showcase my technical side of the competency.",
-  },
-  {
-    id: 2,
-    projName: "DivineDepot E-Commerce App",
-    tools:
-      "PWA App, ReactJS, Firebase Auth, Firestore, Storage, Hosting, CSS, JavaScript, HTML",
-    platform: "Google Firebase, GitHub",
-    description:
-      "This is a fully responsive ecommerce website fully integrated with RazorPay payment gateway in test mode right now.",
-    github_url: "https://github.com/sushblock/ecommerce_bazaar",
-    website_url: "https://divine-ecommerce.web.app/",
-    image: image3,
-    reason:
-      "I have built this ecommerec app/website to implement the minimum set of tools required for a fully functional ecommerece multi vendor platform. It is under construction to include the product upload and analytics reporting capabilities.",
+    projName: "AI Everyday",
+    github_url: "https://github.com/sushblock/ai_everyday",
+    website_url: "https://aiforall.vercel.app/",
+    image: image1, 
+    application: {
+      name: "Celestial-AI Everyday",
+      description: "Our SAAS Subscription app, named \"AI Everyday,\" offers a suite of powerful features to users, centered around leveraging advanced AI capabilities. This app serves as a versatile platform for various creative tasks, such as conversation generation, code, image, audio, and video creation. It empowers users to harness the potential of AI-driven tools to enhance their productivity and creativity."
+    },
+    features: [
+      "Conversation Generation: Users can engage in dynamic and context-aware conversations using cutting-edge AI models, enabling natural and interactive interactions.",
+      "Code Generation: The app provides code generation capabilities, assisting users in creating code snippets and even entire scripts efficiently.",
+      "Image Generation: Users can generate images using state-of-the-art AI algorithms, allowing for quick and customized visual content creation.",
+      "Audio Generation: The app facilitates the creation of audio content through AI-powered algorithms, enabling users to generate various audio elements with ease.",
+      "Video Generation: Users can leverage AI to generate engaging video content, streamlining the process of video creation for different purposes."
+    ],
+    toolsAndTechnologies: {
+      "NextJS": "The app is built using NextJS, a modern web framework that offers server-side rendering and efficient client-side routing.",
+      "Zustand": "For state management, the app utilizes Zustand, a powerful state management library that simplifies handling application state.",
+      "Clerk": "User authentication is managed by Clerk, providing secure login options including email, Google, and various social logins.",
+      "Shadcn UI": "The app's user interface is designed using Shadcn UI, a comprehensive component library with a focus on aesthetics and user experience.",
+      "Planetscale DB": "The backend relies on Planetscale as the database provider, with MySQL as the database technology, ensuring data integrity and scalability.",
+      "OpenAI and Replicate": "The app integrates OpenAI and Replicate APIs to offer AI capabilities for conversation, image, audio, and video generation.",
+      "Tailwind CSS": "The app employs Tailwind CSS for responsive design, animations, and visual effects, enhancing the user interface's overall quality.",
+      "React Hook Form": "Client-side form validation and handling are managed using React Hook Form for a seamless user experience.",
+      "React Toast": "Server-side error handling is facilitated by React Toast, providing users with clear and helpful error messages.",
+      "Stripe": "The app supports monthly subscriptions via Stripe, enabling seamless and secure payment processing.",
+      "Vercel": "Deployment is streamlined through Vercel, ensuring easy hosting and scaling of the app."
+    },
+    accomplishments: [
+      "Successfully developed and launched a SAAS Subscription app, \"AI Everyday,\" with a robust set of AI-powered features.",
+      "Designed an intuitive and user-friendly interface using Shadcn UI and Tailwind CSS.",
+      "Implemented advanced user authentication mechanisms through Clerk, ensuring secure user access.",
+      "Integrated state management using Zustand, optimizing performance and user experience.",
+      "Utilized Planetscale DB to manage data storage, ensuring scalability and data integrity.",
+      "Incorporated AI capabilities from OpenAI and Replicate for diverse content generation tasks, enhancing user creativity.",
+      "Established a seamless subscription model with Stripe, enabling users to access premium features effortlessly.",
+      "Ensured smooth deployment using Vercel, making the app accessible to users worldwide."
+    ]
   },
 ];
 
